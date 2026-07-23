@@ -1,7 +1,7 @@
 {
   "name": "cloud-city-coffee",
   "description": "Order Cloud City Roasters coffee from your terminal — /coffee chats with Lando the barista, finds your bean, and preps a secure Stripe checkout in your browser.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bobby Uzdavines",
   "repository": "https://github.com/bobbyuzda1/cloudcityroasters-plugin",
   "license": "Proprietary",
