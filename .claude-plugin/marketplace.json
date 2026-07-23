@@ -1,0 +1,12 @@
+{
+  "name": "cloudcityroasters-plugin",
+  "owner": { "name": "Bobby Uzdavines" },
+  "plugins": [
+    {
+      "name": "cloud-city-coffee",
+      "source": "./plugins/cloud-city-coffee",
+      "description": "Order Cloud City Roasters coffee from your terminal — /coffee chats with Lando the barista, finds your bean, and preps a secure Stripe checkout.",
+      "version": "1.0.0"
+    }
+  ]
+}
