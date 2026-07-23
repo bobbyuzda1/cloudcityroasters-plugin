@@ -127,7 +127,7 @@ POST the order (run via Bash; substitute the guest's real values):
 ```bash
 curl -s --max-time 15 -X POST https://cloudcityroasters.com/api/plugin/checkout \
   -H 'Content-Type: application/json' \
-  -d '{"mode":"onetime","lines":[{"slug":"einsteins-formula","sizeKey":"5lb","grind":"Medium Grind (Drip)","qty":1}],"email":"guest@example.com","newsletterOptIn":true}'
+  -d '{"mode":"onetime","lines":[{"slug":"einsteins-formula","sizeKey":"5lb","grind":"Medium Grind (Drip)","qty":1}],"email":"guest@example.com","newsletterOptIn":false}'
 ```
 
 - `mode` is `"onetime"` or `"subscription"` (subscription = exactly one line).
