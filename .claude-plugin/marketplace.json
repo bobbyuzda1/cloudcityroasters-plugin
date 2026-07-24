@@ -1,14 +1,23 @@
 {
   "name": "cloudcityroasters-plugin",
   "owner": {
-    "name": "Bobby Uzdavines"
+    "name": "Bobby Uzdavines",
+    "email": "bobby@cloudcityroasters.com"
   },
   "plugins": [
     {
       "name": "cloud-city-coffee",
       "source": "./plugins/cloud-city-coffee",
       "description": "Order Cloud City Roasters coffee from your terminal \u2014 /coffee chats with Lando the barista, finds your bean, and preps a secure Stripe checkout.",
-      "version": "1.0.3"
+      "version": "1.1.0",
+      "category": "productivity",
+      "tags": [
+        "coffee",
+        "shopping",
+        "ecommerce",
+        "stripe"
+      ]
     }
-  ]
+  ],
+  "description": "Cloud City Roasters in your terminal: /coffee chats with Lando the barista, recommends a fresh-roasted bean, and preps a secure Stripe checkout (first order 10% off automatically)."
 }
